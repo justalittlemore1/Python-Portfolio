@@ -77,7 +77,7 @@ class MainFunction():
 
         # Add virus images.
         global openedvirusimage
-        openingvirusimage = Image.open('/Users/kheddie/Documents/Python2/Epidemic Simulation/virus.png')
+        openingvirusimage = Image.open('./virus.png')
         openedvirusimage = ImageTk.PhotoImage(openingvirusimage)
         global virusimage1
         virusimage1 = tk.Label(master=mainframe, image=openedvirusimage)
