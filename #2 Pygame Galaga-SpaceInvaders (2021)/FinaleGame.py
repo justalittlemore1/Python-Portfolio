@@ -88,7 +88,7 @@ while True: # Setup.
     mleft = mright = death = False
     playing = True
     lives = 3
-    game_round = 10
+    game_round = 1
     
     while True: # (Update/Reset) Rounds.
         a_rate = 130
